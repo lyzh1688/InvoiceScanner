@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Shape">
+      <UniqueIdentifier>{9af05a85-0a3f-46ca-83db-5adbf790e01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shape">
+      <UniqueIdentifier>{49663a69-6a0a-4ddd-abc6-5f359e393d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Image">
+      <UniqueIdentifier>{2e2fb802-60e3-4639-bac6-8a102af1b687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image">
+      <UniqueIdentifier>{bd89db5f-6795-4fd9-82b4-86650c5a46ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Detector">
+      <UniqueIdentifier>{ada35e48-f341-476a-b27c-e34b841409ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Detetcor">
+      <UniqueIdentifier>{0c5f3489-f613-48e7-b567-2661fdb6280c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Recognize">
+      <UniqueIdentifier>{7e5a67fc-0065-4e4e-9bb0-1b90ca8277df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Recognize">
+      <UniqueIdentifier>{cf6aac62-3dca-4dd8-ad86-76006e7f8bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{622db411-2f49-4202-884f-67a64cf7aa3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{996a6d1f-c8ad-475f-a790-e2d7b1ea6d7d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="LineTypeEnum.h">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgProcessor.h">
+      <Filter>Header Files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeMap.h">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialShape.h">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="StringShape.h">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDetector.h">
+      <Filter>Header Files\Detetcor</Filter>
+    </ClInclude>
+    <ClInclude Include="LineDetector.h">
+      <Filter>Header Files\Detetcor</Filter>
+    </ClInclude>
+    <ClInclude Include="RectDetector.h">
+      <Filter>Header Files\Detetcor</Filter>
+    </ClInclude>
+    <ClInclude Include="StringShapeDetector.h">
+      <Filter>Header Files\Detetcor</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialShapeDetector.h">
+      <Filter>Header Files\Detetcor</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseShape.h">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="InvoiceImg.h">
+      <Filter>Header Files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseImage.h">
+      <Filter>Header Files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="RectShape.h">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Tesseract.h">
+      <Filter>Header Files\Recognize</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonUtil.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="AccntStatementImg.h">
+      <Filter>Header Files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="StringRow.h">
+      <Filter>Header Files\Recognize</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThresholdController.h">
+      <Filter>Header Files\Detetcor</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanFactory.h">
+      <Filter>Header Files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="StatementImg.h">
+      <Filter>Header Files\Image</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Source Files\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgProcessor.cpp">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialShape.cpp">
+      <Filter>Source Files\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="StringShape.cpp">
+      <Filter>Source Files\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDetector.cpp">
+      <Filter>Source Files\Detector</Filter>
+    </ClCompile>
+    <ClCompile Include="LineDetector.cpp">
+      <Filter>Source Files\Detector</Filter>
+    </ClCompile>
+    <ClCompile Include="RectDetector.cpp">
+      <Filter>Source Files\Detector</Filter>
+    </ClCompile>
+    <ClCompile Include="StringShapeDetector.cpp">
+      <Filter>Source Files\Detector</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialShapeDetector.cpp">
+      <Filter>Source Files\Detector</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseShape.cpp">
+      <Filter>Source Files\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="InvoiceImg.cpp">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseImage.cpp">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="RectShape.cpp">
+      <Filter>Source Files\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Tesseract.cpp">
+      <Filter>Source Files\Recognize</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonUtil.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="AccntStatementImg.cpp">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="StringRow.cpp">
+      <Filter>Source Files\Recognize</Filter>
+    </ClCompile>
+    <ClCompile Include="ThresholdController.cpp">
+      <Filter>Source Files\Detector</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanFactory.cpp">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="StatementImg.cpp">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
